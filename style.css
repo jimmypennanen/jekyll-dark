@@ -12,3 +12,8 @@
 html {
   scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
 }
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;  
+}
