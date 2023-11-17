@@ -1,32 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="/assets/css/style.css">
-
-</head>
+    {% include head.html %}
 <body>
-    <header>
-        <div class="uppercase flex justify-between p-2">
-            <div>
-                <h2> Name of company </h2>
-            </div>
-            <nav class="space-x-9">
-                <a href=""> Nav 1 </a>
-                <a href=""> Nav 2 </a>
-                <a href=""> Nav 3 </a>
-                <a href=""> Nav 4 </a>
-            </nav>
-        </div>
-    </header>
+
+    {% include site-header.html %}
 
     {{content}}
 
-    <footer class="bg-pink-300">
-        <h2>footer</h2>
-    </footer>
+    {% include site-footer.html %}
 </body>
 </html>
