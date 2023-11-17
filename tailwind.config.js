@@ -39,10 +39,9 @@ module.exports = {
         '5p': '5%',
         '10p': '10%',
         '15p': '15%',
+        '100p': '100%',
       },
-      aspectRatio: {
-        '5/3': '5 / 3',
-      },
+
       minHeight:{
         '100': '100vh',
         '90': '90vh',
@@ -55,6 +54,7 @@ module.exports = {
         'landscape': '3 / 2',
         'portrait-tall': '5/8',
         'portrait': '4/5',
+        '5/3': '5 / 3',
       },
     },
   },
