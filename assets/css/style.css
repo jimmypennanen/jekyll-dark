@@ -591,14 +591,14 @@ video {
 .pb-5 {
   padding-bottom: 1.25rem;
 }
-.pb-100p {
-  padding-bottom: 100%;
-}
 .pt-1 {
   padding-top: 0.25rem;
 }
 .pt-10p {
   padding-top: 10%;
+}
+.pb-100p {
+  padding-bottom: 100%;
 }
 .pb-10p {
   padding-bottom: 10%;
